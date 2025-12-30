@@ -139,3 +139,14 @@ article h3 {
 .lista-enlaces li a:hover {
     text-decoration: underline;
 }
+/* Estilo para tu foto de perfil */
+.foto-perfil {
+    width: 200px;          /* Ajusta el tamaño */
+    height: 200px;
+    object-fit: cover;     /* Para que no se deforme si no es cuadrada */
+    border-radius: 50%;    /* La hace circular */
+    border: 5px solid #1abc9c; /* Un borde del color de tu web */
+    display: block;
+    margin: 20px auto;    /* La centra horizontalmente */
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
