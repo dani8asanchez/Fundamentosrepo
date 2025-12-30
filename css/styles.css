@@ -77,3 +77,32 @@ footer {
     color: white;
     font-size: 0.9rem;
 }
+/* Botón de Instagram */
+.btn-instagram {
+    display: inline-block;
+    background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: transform 0.3s, box-shadow 0.3s;
+    margin-top: 10px;
+}
+
+.btn-instagram:hover {
+    transform: scale(1.05); /* Se hace un poco más grande al pasar el ratón */
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    color: white; /* Asegura que el texto siga blanco */
+}
+/* Estilos para las asignaturas en degree.html */
+article {
+    margin-bottom: 1.5rem;
+    padding-left: 10px;
+    border-left: 3px solid #1abc9c; /* Una línea lateral para resaltar cada asignatura */
+}
+
+article h3 {
+    color: #2c3e50;
+    margin-bottom: 0.3rem;
+}
